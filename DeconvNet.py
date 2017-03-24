@@ -10,7 +10,7 @@ import cv2
 
 class DeconvNet:
     def __init__(self, use_cpu=False, checkpoint_dir='./checkpoints/'):
-        self.maybe_download_and_extract()
+        #self.maybe_download_and_extract()
 
         self.build(use_cpu=use_cpu)
 
