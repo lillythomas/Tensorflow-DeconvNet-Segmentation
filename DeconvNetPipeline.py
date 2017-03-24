@@ -276,7 +276,7 @@ if __name__ == '__main__':
 
     # Using argparse over tf.FLAGS as I find they behave better in ipython
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train_record', help="training tfrecord file", default="tfrecords/pascalvoc2012.tfrecords")
+    parser.add_argument('--train_record', help="training tfrecord file", default="tfrecords/segmentation.tfrecords")
     parser.add_argument('--train_dir', help="where to log training", default="train_log")
     parser.add_argument('--batch_size', help="batch size", type=int, default=10)
     parser.add_argument('--num_epochs', help="number of epochs.", type=int, default=50)
